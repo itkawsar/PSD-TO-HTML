@@ -1,0 +1,140 @@
+/*-----Common CSS STart*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #02918C;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+row {
+    display: flex;
+    align-items: center;
+}
+
+
+/*-----Common CSS STart*/
+
+
+/*-----Nav CSS STart*/
+
+nav .container>.row {
+    display: flex;
+    align-items: center;
+}
+
+nav .container>.row {
+    display: flex;
+    align-items: center;
+}
+
+nav .container .menu {
+    width: 60%;
+}
+
+nav .container .logo {
+    width: 40%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul li {
+    margin: 10px;
+    transition: all .4s linear;
+    text-align: right;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: aqua;
+}
+
+nav ul li a:hover {
+    color: black
+}
+
+
+/*-----Nav CSS End*/
+
+
+/*-----Banner CSS STart*/
+
+.banner {
+    background-image: url(..//images/slider.jpg);
+    height: 721px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 210px 0;
+    position: relative;
+}
+
+.banner img {
+    display: block;
+    margin: auto;
+}
+
+.banner h6 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    font-weight: 800;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.banner img {
+    padding: 40px 0;
+}
+
+.banner a {
+    color: #000000;
+    padding: 10px 50px;
+    background-color: #CFC91D;
+    font-size: 14px;
+}
+
+
+/*-----Banner CSS End*/
